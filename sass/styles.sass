@@ -11,6 +11,8 @@ $black: #2D3134
 @import "feature_popular_destinations"
 @import "top_destinations"
 @import "feedback"
+@import "signup"
+@import "footer"
 
 body
     margin: 0
@@ -39,8 +41,14 @@ section
         border: 1px solid $grey
         margin: 0 8px
         cursor: pointer
+        transition: all .3s ease-in-out
         i
             color: $grey
+        &:hover
+            border: 1px solid $black
+            background: $black
+            i
+                color: white
     .btn40
         width: 40px
         height: 40px
